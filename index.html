@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Anu is a Computer Science student and aspiring software & web developer who designs and builds clean, user-focused experiences."
+    />
+    <meta name="author" content="Anu" />
+
+    <title>Anu | Computer Science Student & Aspiring Developer</title>
+
+    <!-- Basic SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="Anu | Computer Science Student & Aspiring Developer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio of Anu, a Computer Science student passionate about web development, programming, and UI/UX design."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home" class="nav__logo" aria-label="Anu - Home">
+          <span class="nav__logo-mark"></span>
+          <span class="nav__logo-text">Anupriya G </span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </button>
+
+        <ul class="nav__menu">
+          <li><a href="#home" class="nav__link nav__link--active">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#experience" class="nav__link">Experience</a></li>
+          <li><a href="#education" class="nav__link">Education</a></li>
+          <li>
+            <a href="#certifications" class="nav__link">Certifications</a>
+          </li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================= HERO ================= -->
+      <section id="home" class="section hero" aria-labelledby="hero-heading">
+        <div class="container hero__content">
+          <div class="hero__text reveal">
+            <p class="hero__eyebrow">
+              Computer Science Student · Aspiring Software Developer
+            </p>
+           <h1 id="hero-heading" class="hero__title">
+              Hi, I’m <span class="accent-text">Anupriya</span> —
+              <span class="fade-role"></span>
+            </h1>
+            <p class="hero__subtitle">
+              I design and build clean, user-focused websites and enjoy turning
+              ideas into real-world projects with elegant code and thoughtful
+              design.
+            </p>
+
+            <div class="hero__cta">
+              <a href="#projects" class="btn btn--primary">View Projects</a>
+              <a href="Anu_Resume.pdf" class="btn btn--ghost" download>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="hero__meta"></div>
+          </div>
+
+          <div class="hero__visual reveal" aria-hidden="true">
+            <div class="hero__orb hero__orb--primary"></div>
+            <div class="hero__orb hero__orb--secondary"></div>
+            <div class="hero__card">
+              <div class="hero__status-dot"></div>
+              <p class="hero__card-title">Currently exploring</p>
+              <p class="hero__card-body">
+                Web development · UI/UX · Software development
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section id="about" class="section" aria-labelledby="about-heading">
+        <div class="container section__inner section__inner--split">
+          <div class="section__header reveal">
+            <p class="section__eyebrow">About Me</p>
+            <h2 id="about-heading" class="section__title">
+              A curious mind with a builder’s mindset
+            </h2>
+          </div>
+
+          <div class="about__card card reveal">
+            <div class="about__avatar" role="img" aria-label="Avatar of Anu">
+              <span class="about__avatar-text">A</span>
+            </div>
+            <div class="about__card-text">
+              <p class="about__card-title">Anu</p>
+              <p class="about__card-subtitle">
+                Computer Science Student · Aspiring Software &amp; Web Developer
+              </p>
+              <p class="about__card-meta">
+                Focus: Web Development · Programming · UI/UX
+              </p>
+            </div>
+          </div>
+
+          <section id="about" class="about">
+            <div class="about-container">
+              <div class="about-image">
+                <img src="anu.png" alt="Anu's photo" />
+              </div>
+
+              <div class="about-content"></div>
+            </div>
+          </section>
+
+          <div class="about__content reveal">
+            <p class="about__text">
+              I’m a <b> third-year Computer Science Engineering </b>student with
+              a strong interest in
+              <b>
+                software development, Full stack web development and Artificial
+                Intelligence.</b
+              >
+              I enjoy taking ideas from a simple sketch or problem statement and
+              shaping them into functional, user-friendly applications. Through
+              my internship journey, I have been able to practice real-world
+              problem solving, write clean and maintainable code, and
+              collaborate using industry tools. I have gained hands-on
+              experience at <b>iTech Academy </b> as a
+              <b> Full stack web developer intern </b> working with real world
+              tools including <b>HTML, CSS, React.js, Node.js, SQL.</b>
+            </p>
+            <p class="about__text">
+              I’m constantly learning—whether it’s experimenting with new
+              JavaScript patterns, exploring UI/UX best practices, or
+              understanding how systems work behind the scenes. My goal is to
+              begin my career in the IT industry as a software or web developer,
+              where I can contribute to impactful projects, grow alongside a
+              strong team, and keep improving both my technical and design
+              skills.
+            </p>
+
+            <div class="about__highlights" aria-label="Personal highlights">
+              <span class="chip">Student</span>
+              <span class="chip">Learner</span>
+              <span class="chip">Developer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS ================= -->
+      <section
+        id="skills"
+        class="section section--alt"
+        aria-labelledby="skills-heading"
+      >
+        <div class="container">
+          <div class="section__header reveal">
+            <p class="section__eyebrow">Skills</p>
+            <h2 id="skills-heading" class="section__title">
+              Technical strengths & tools I work with
+            </h2>
+            <p class="section__subtitle">
+              A growing toolkit focused on building reliable, user-centric
+              solutions.
+            </p>
+          </div>
+
+          <div class="skills__grid">
+            <article class="card skills__card reveal">
+              <h3 class="card__title">Programming</h3>
+              <p class="card__subtitle">
+                Writing clean, logical code to solve real problems.
+              </p>
+              <ul class="tag-list">
+                <li>
+                  <span class="tag">Java</span>
+                  <span class="tag__desc"
+                    >Object-oriented programming and problem solving</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">Python</span>
+                  <span class="tag__desc"
+                    >Data handling, scripting, and automation</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">C programming</span>
+                  <span class="tag__desc">Problem solving and programming</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card skills__card reveal">
+              <h3 class="card__title">Web Development</h3>
+              <p class="card__subtitle">
+                Creating responsive, accessible, and semantic interfaces.
+              </p>
+              <ul class="tag-list">
+                <li>
+                  <span class="tag">HTML</span>
+                  <span class="tag__desc">Semantic structure and content</span>
+                </li>
+                <li>
+                  <span class="tag">CSS</span>
+                  <span class="tag__desc"
+                    >Modern layouts, transitions, and responsive design</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag__desc"
+                    >Interactive and dynamic web features</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">React</span>
+                  <span class="tag__desc"
+                    >Component-based UI development fundamentals</span
+                  >
+                </li>
+              </ul>
+            </article>
+
+            <article class="card skills__card reveal">
+              <h3 class="card__title">Tools & Design</h3>
+              <p class="card__subtitle">
+                Bringing structure to code and polish to interfaces.
+              </p>
+              <ul class="tag-list">
+                <li>
+                  <span class="tag">Git &amp; GitHub</span>
+                  <span class="tag__desc"
+                    >Version control and collaborative workflows</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">Figma · Framer · Canva</span>
+                  <span class="tag__desc"
+                    >Wireframing, prototyping, and visual design</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">NetBeans · VS Code</span>
+                  <span class="tag__desc"
+                    >Everyday development environments</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">Excel</span>
+                  <span class="tag__desc">Data analysis and reporting</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card skills__card reveal">
+              <h3 class="card__title">Databases & Cloud</h3>
+              <p class="card__subtitle">
+                Working with data and cloud-powered environments.
+              </p>
+              <ul class="tag-list">
+                <li>
+                  <span class="tag">MySQL</span>
+                  <span class="tag__desc"
+                    >Relational database design and queries</span
+                  >
+                </li>
+                <li>
+                  <span class="tag">Oracle Cloud (Certified)</span>
+                  <span class="tag__desc"
+                    >Fundamentals of cloud infrastructure</span
+                  >
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS ================= -->
+      <section id="projects" class="section" aria-labelledby="projects-heading">
+        <div class="container">
+          <div class="section__header reveal">
+            <p class="section__eyebrow">Projects</p>
+            <h2 id="projects-heading" class="section__title">
+              Turning ideas into working solutions
+            </h2>
+            <p class="section__subtitle">
+              A selection of academic and personal projects that highlight my
+              approach to building useful, well-structured applications.
+            </p>
+          </div>
+
+          <div class="projects__grid">
+            <!-- Project 1 -->
+            <article class="card project-card reveal">
+              <div class="project-card__header">
+                <h3 class="card__title">
+                  Event Hub – Student Event Management App
+                </h3>
+                <span class="project-card__label">Academic Project</span>
+              </div>
+              <p class="card__body">
+                A web-based application designed to manage and showcase college
+                events, enabling students and faculty to post, explore, and
+                engage with upcoming events in a centralized platform.
+              </p>
+              <ul class="project-card__features">
+                <li>
+                  Role-based access for students and faculty to create and
+                  manage events
+                </li>
+                <li>
+                  Event browsing with likes/interest tracking for student
+                  participation
+                </li>
+                <li>
+                  Responsive and user-friendly interface for seamless access
+                  across devices
+                </li>
+              </ul>
+              <div class="project-card__tech">
+                <span>Java</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-card__actions"></div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card project-card reveal">
+              <div class="project-card__header">
+                <h3 class="card__title">Donify – Donation Platform Website</h3>
+                <span class="project-card__label">Personal Project</span>
+              </div>
+              <p class="card__body">
+                A responsive donation platform website that enables users to
+                explore causes and support them through a clean, user-friendly
+                interface focused on trust and accessibility.
+              </p>
+              <ul class="project-card__features">
+                <li>
+                  Designed intuitive landing pages to showcase donation causes
+                  and impact
+                </li>
+                <li>
+                  Implemented responsive layouts for seamless experience across
+                  devices
+                </li>
+                <li>
+                  Focused on clear content structure, accessibility, and modern
+                  UI design
+                </li>
+              </ul>
+              <div class="project-card__tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Figma</span>
+              </div>
+              <div class="project-card__actions"></div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card project-card reveal">
+              <div class="project-card__header">
+                <h3 class="card__title">
+                  Connexa – Healthcare Networking Web Application
+                </h3>
+                <span class="project-card__label">Academic Project</span>
+              </div>
+              <p class="card__body">
+                A comprehensive healthcare networking web application designed
+                to connect users for professional collaboration and networking
+                in a secure, responsive environment.
+              </p>
+              <ul class="project-card__features">
+                <li>
+                  Implemented user authentication to ensure secure access and
+                  profile management
+                </li>
+                <li>
+                  Enabled user connections and collaboration through an
+                  interactive web interface
+                </li>
+                <li>
+                  Designed responsive layouts for seamless usage across devices
+                </li>
+              </ul>
+              <div class="project-card__tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Figma</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-card__actions"></div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="card project-card reveal">
+              <div class="project-card__header">
+                <h3 class="card__title">Personal Portfolio Website</h3>
+                <span class="project-card__label">This Site</span>
+              </div>
+              <p class="card__body">
+                A fully responsive dark-themed portfolio that showcases my
+                background, skills, and projects with a focus on clarity,
+                accessibility, and smooth user experience.
+              </p>
+              <ul class="project-card__features">
+                <li>Modern dark UI with subtle gradients and glow effects</li>
+                <li>Scroll-based animations and micro-interactions</li>
+                <li>SEO-friendly, accessible structure</li>
+              </ul>
+              <div class="project-card__tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-card__actions">
+                <a
+                  href="#home"
+                  class="btn btn--ghost btn--sm"
+                  aria-label="View this portfolio"
+                  >View Live</a
+                >
+                <a
+                  href="https://github.com/ANUPRIYA1881"
+                  class="btn btn--text btn--sm"
+                  aria-label="View Personal Portfolio Website source code on GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            </article>
+            <!-- Project 5 -->
+            <article class="card project-card reveal">
+              <div class="project-card__header">
+                <h3 class="card__title">
+                  Attendance Analytics - Automated Attendance Tracker
+                </h3>
+                <span class="project-card__label">Academic Project</span>
+              </div>
+              <p class="card__body">
+                A Java-based automated attendance tracking system that processes
+                CSV files to calculate employee working hours with scheduled and
+                manual execution support.
+              </p>
+              <ul class="project-card__features">
+                <li>
+                  Developed a Java application using Apache NetBeans and
+                  packaged it as a JAR file
+                </li>
+                <li>
+                  Automated daily, weekly, and monthly working hour calculations
+                  from CSV attendance data
+                </li>
+                <li>
+                  Integrated email notifications to send calculated work-hour
+                  reports to corresponding employees
+                </li>
+                <li>
+                  Used BAT scripts and Windows Task Scheduler for automated
+                  execution with manual upload fallback
+                </li>
+              </ul>
+              <div class="project-card__tech">
+                <span>Apache NetBeans</span>
+                <span>JAR</span>
+                <span>Java</span>
+                <span>Batch Script</span>
+                <span>Windows Task Scheduler</span>
+                <span>CSV</span>
+                <span>Email Integration</span>
+              </div>
+              <div class="project-card__actions">
+                <a
+                  href="https://github.com/ANUPRIYA1881"
+                  class="btn btn--ghost btn--sm"
+                  aria-label="View this portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Project</a
+                >
+                <a
+                  href="https://github.com/ANUPRIYA1881"
+                  class="btn btn--text btn--sm"
+                  aria-label="View Personal Portfolio Website source code on GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="section" aria-labelledby="experience-heading">
+  <div class="container">
+    <div class="section__header reveal">
+      <p class="section__eyebrow">Experience</p>
+      <h2 id="experience-heading" class="section__title">
+        Practical experience & internships
+      </h2>
+      <p class="section__subtitle">
+        Hands-on exposure where I applied my technical skills in real-world scenarios.
+      </p>
+    </div>
+
+    <div class="timeline">
+
+      <!-- Experience 1 -->
+      <article class="timeline__item reveal">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content card">
+          <h3 class="card__title">Full Stack Web Developer Intern</h3>
+          <p class="card__subtitle">iTech Academy · Internship</p>
+          <p class="card__body">
+            Worked on real-world web development projects using modern technologies.
+            Gained hands-on experience in both frontend and backend development.
+          </p>
+          <ul class="project-card__features">
+            <li>Developed responsive UI using HTML, CSS, and React</li>
+            <li>Worked with Node.js and SQL for backend logic</li>
+            <li>Collaborated using Git & GitHub</li>
+          </ul>
+        </div>
+      </article>
+      <!-- Experience 2 -->
+      <article class="timeline__item reveal">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content card">
+          <h3 class="card__title">App Developer Intern</h3>
+          <p class="card__subtitle">RGreen Technologies · Internship</p>
+          <p class="card__body">
+            Developed and maintained desktop applications with a focus on performance and usability. Gained hands-on experience in debugging, optimizing code, and implementing real-world software solutions.
+          </p>
+          <ul class="project-card__features">
+            <li>Developed desktop-based user interfaces using Java Swing in Apache NetBeans</li>
+            <li>Implemented backend logic using Java </li>
+            <li>Collaborated with team members using Git & GitHub</li>
+          </ul>
+        </div>
+      </article>
+      <!-- Experience 3 -->
+      <article class="timeline__item reveal">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content card">
+          <h3 class="card__title">Software Developer Intern</h3>
+          <p class="card__subtitle">Zelid Technologies · Internship</p>
+          <p class="card__body">
+            Worked on both frontend and backend development to build complete web applications, gaining hands-on experience in full-stack development and deployment.
+          </p>
+          <ul class="project-card__features">
+            <li>Frontend Development using HTML, CSS, and JavaScript</li>
+            <li>Understanding of Backend Development Basics</li>
+            <li>Knowledge of AI Model Deployment</li>
+            
+            
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Education ================= -->
+      <section id="education" class="section" aria-labelledby="education-heading">
+        <div class="container">
+          <div class="section__header reveal">
+            <p class="section__eyebrow">Education</p>
+            <h2 id="education-heading" class="section__title">
+              My academic journey
+            </h2>
+            <p class="section__subtitle">
+             My educational background that shaped my technical foundation.
+            </p>
+          </div>
+
+          <div class="projects__grid">
+            <!--college -->
+            <article class="card project-card reveal">
+              <div class="project-card__header">
+                <h3 class="card__title">
+                  B.E Computer Science Engineering
+                </h3>
+                </div>
+                <p class="card__subtitle">AAA College of Engineering and Technology</p>
+              <p class="card__body">
+                Currently pursuing my degree with a focus on software development, web technologies, and problem solving
+              </p>
+              <p><b>Year:</b> 2023 – 2027</p>
+            </article>
+
+            <!-- School -->
+            <article class="card project-card reveal">
+              <div class="project-card__header">
+                <h3 class="card__title">
+                  Higher Secondary Education
+                </h3>
+              </div>
+              <p class="card__subtitle">S.S.H.N.Hr.Sec.School</p>
+              <p class="card__body">
+                Completed with focus on Mathematics and Science.
+              </p>
+              <p><b>Year:</b> 2021 – 2023</p>
+            </article>
+
+            
+            
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CERTIFICATIONS ================= -->
+      <section
+        id="certifications"
+        class="section section--alt"
+        aria-labelledby="certifications-heading"
+      >
+        <div class="container">
+          <div class="section__header reveal">
+            <p class="section__eyebrow">Certifications &amp; Achievements</p>
+            <h2 id="certifications-heading" class="section__title">
+              Growing through structured learning
+            </h2>
+            <p class="section__subtitle">
+              Formal training and achievements that support my technical
+              journey.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline__item reveal">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content card">
+                <h3 class="card__title">
+                  Oracle Cloud Infrastructure Certification
+                </h3>
+                <p class="card__subtitle">Oracle Cloud · Foundational Level</p>
+                <p class="card__body">
+                  Gained foundational knowledge of Oracle Cloud Infrastructure
+                  (OCI), including core concepts such as compute, storage,
+                  networking, identity and access management, and cloud
+                  security. Learned how cloud services are used to deploy,
+                  manage, and scale applications efficiently.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline__item reveal">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content card">
+                <h3 class="card__title">Data Analytics with Python</h3>
+                <p class="card__subtitle">NPTEL</p>
+                <p class="card__body">
+                  Learned the fundamentals of data analytics using Python,
+                  including data preprocessing, exploratory data analysis, and
+                  basic visualization. Worked with libraries such as NumPy,
+                  Pandas, and Matplotlib to analyze datasets and extract
+                  meaningful insights.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline__item reveal">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content card">
+                <h3 class="card__title">
+                  Problem solving and programming using C language
+                </h3>
+                <p class="card__subtitle">eBox Training Institute</p>
+                <p class="card__body">
+                  Developed strong problem-solving skills using the C
+                  programming language by practicing structured programming
+                  concepts, control statements, functions, arrays, and pointers.
+                  Built a solid foundation in algorithmic thinking through
+                  hands-on exercises and mini programs.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section id="contact" class="section" aria-labelledby="contact-heading">
+        <div class="container">
+          <div class="section__header reveal">
+            <p class="section__eyebrow">Contact</p>
+            <h2 id="contact-heading" class="section__title">
+              Let’s build something meaningful
+            </h2>
+            <p class="section__subtitle">
+              Whether it’s an internship, a project idea, or just a conversation
+              about tech, I’d love to hear from you.
+            </p>
+          </div>
+
+          <div class="contact__layout">
+            <div class="contact__info reveal">
+              <p class="contact__text">
+                I’m actively looking for entry-level opportunities, internships,
+                and collaborative projects where I can apply my skills, learn
+                from experienced developers, and contribute to real-world
+                solutions.
+              </p>
+              <ul class="contact__links" aria-label="Social links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/anupriya-ganesan-535668346"
+                    target="_blank"
+                    rel="noopener"
+                    class="contact__link"
+                  >
+                    <span class="contact__icon">in</span>
+                    <span>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/ANUPRIYA1881"
+                    target="_blank"
+                    rel="noopener"
+                    class="contact__link"
+                  >
+                    <span class="contact__icon">GH</span>
+                    <span>GitHub</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:anupriyaganesan1846@example.com"
+                    class="contact__link"
+                  >
+                    <span class="contact__icon">@</span>
+                    <span>anupriyaganesan1846@example.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <form class="contact__form card reveal" novalidate>
+              <div class="form__group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+
+              <div class="form__group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+
+              <div class="form__group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Share your ideas or opportunities..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary form__submit">
+                Send Message
+              </button>
+
+              <p class="form__note">
+                This form is for demonstration. You can also reach me directly
+                via email.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p class="site-footer__text">
+          Designed &amp; Built by <span class="accent-text">Anu</span> ·
+          <span id="year"></span>
+        </p>
+        <div class="site-footer__social">
+          <a
+            href="https://www.linkedin.com/in/anupriya-ganesan-535668346"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            in
+          </a>
+          <a
+            href="https://github.com/ANUPRIYA1881"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+          >
+            GH
+          </a>
+          <a href="mailto:anupriyaganesan1846@example.com" aria-label="Email">
+            @
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" aria-atomic="true">
+      <p class="toast__message">Thank you! Your message has been recorded.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
